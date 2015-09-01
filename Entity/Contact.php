@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Contact
  *
- * @ORM\Table()
+ * @ORM\Table(name="rudakFacture_contact")
  * @ORM\Entity(repositoryClass="Rudak\FactureBundle\Entity\ContactRepository")
  */
 class Contact
