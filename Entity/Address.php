@@ -24,28 +24,28 @@ class Address
     /**
      * @var string
      *
-     * @ORM\Column(name="address", type="string", length=120)
+     * @ORM\Column(name="address", type="string", length=120, nullable=true)
      */
     private $address;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="city", type="string", length=60)
+     * @ORM\Column(name="city", type="string", length=60, nullable=true)
      */
     private $city;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="country", type="string", length=40)
+     * @ORM\Column(name="country", type="string", length=40, nullable=true)
      */
     private $country;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="postCode", type="string", length=20)
+     * @ORM\Column(name="postCode", type="string", length=20, nullable=true)
      */
     private $postCode;
 

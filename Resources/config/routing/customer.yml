@@ -1,0 +1,30 @@
+admin_customer:
+    path:     /
+    defaults: { _controller: "RudakFactureBundle:Customer:index" }
+
+admin_customer_show:
+    path:     /{id}/show
+    defaults: { _controller: "RudakFactureBundle:Customer:show" }
+
+admin_customer_new:
+    path:     /new
+    defaults: { _controller: "RudakFactureBundle:Customer:new" }
+
+admin_customer_create:
+    path:     /create
+    defaults: { _controller: "RudakFactureBundle:Customer:create" }
+    methods:  POST
+
+admin_customer_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "RudakFactureBundle:Customer:edit" }
+
+admin_customer_update:
+    path:     /{id}/update
+    defaults: { _controller: "RudakFactureBundle:Customer:update" }
+    methods:  [POST, PUT]
+
+admin_customer_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "RudakFactureBundle:Customer:delete" }
+    methods:  [POST, DELETE]

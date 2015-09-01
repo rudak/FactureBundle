@@ -1,3 +1,7 @@
+rudak_facture_admin_customer:
+    resource: "@RudakFactureBundle/Resources/config/routing/customer.yml"
+    prefix:   /admin/customer
+
 rudak_facture_homepage:
     path:     /facture/test
     defaults: { _controller: RudakFactureBundle:Default:index }

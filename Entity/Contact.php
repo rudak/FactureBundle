@@ -24,35 +24,35 @@ class Contact
     /**
      * @var string
      *
-     * @ORM\Column(name="phone", type="string", length=20)
+     * @ORM\Column(name="phone", type="string", length=20,nullable=true)
      */
     private $phone;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="fax", type="string", length=20)
+     * @ORM\Column(name="fax", type="string", length=20,nullable=true)
      */
     private $fax;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="mobile", type="string", length=20)
+     * @ORM\Column(name="mobile", type="string", length=20,nullable=true)
      */
     private $mobile;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="email", type="string", length=80)
+     * @ORM\Column(name="email", type="string", length=80,nullable=true)
      */
     private $email;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="web", type="string", length=140)
+     * @ORM\Column(name="web", type="string", length=140,nullable=true)
      */
     private $web;
 
