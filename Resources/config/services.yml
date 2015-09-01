@@ -1,0 +1,4 @@
+services:
+#    rudak_fl.example:
+#        class: Rudak\FlBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
