@@ -18,8 +18,7 @@
     "php": ">=5.3.2",
     "symfony/framework-bundle": ">=2.1",
     "twig/twig": "*",
-    "doctrine/doctrine-bundle": "*",
-    "rudak/user-bundle": "~1.0"
+    "doctrine/doctrine-bundle": "*"
   },
   "autoload": {
     "psr-0": {
